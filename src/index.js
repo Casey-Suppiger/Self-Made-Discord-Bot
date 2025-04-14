@@ -32,10 +32,6 @@ client.on('messageCreate', (message) => {
 		message.reply('Hey!');
 	}
 
-	if (message.content.toUpperCase() == 'Gay Retard') {
-		message.reply('Way to describe yourself!');
-	}
-
 	if (message.content.toUpperCase().includes('I THINK')) {
 		message.reply('Dogshit oppinion: you should feel ashamed');
 	}
